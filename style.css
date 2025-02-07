@@ -1,0 +1,105 @@
+/*Style developed by CHAt GPT */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    padding: 0;
+    background-color: #f7f2f9; /* Light pastel background */
+    color: #333;
+}
+
+header {
+    text-align: center;
+    background-color: #f8f9fa; /* Light background color for the header */
+    padding: 30px 0;
+}
+
+/* Header Top */
+.header-top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    background-color: #ffe4e1; /* Soft pink */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    font-size: 24px;
+    color: #5a5a5a;
+    margin: 0;
+}
+
+/* Navigation Menu */
+.menu {
+    background-color: #d8bfd8; /* Pastel purple */
+    text-align: center;
+    padding: 10px 0;
+}
+
+.menu ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menu ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    padding: 8px 12px;
+    border-radius: 5px;
+    transition: background 0.3s;
+}
+
+.menu ul li a:hover {
+    background-color: #c9a0dc; /* Slightly darker pastel purple */
+}
+
+/* Contact Form */
+#contactForm {
+    background-color: #ffe4e1; /* Matching soft pink */
+    padding: 20px;
+    width: 50%;
+    margin: 30px auto;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#contactForm input, 
+#contactForm textarea {
+    width: 90%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #d8bfd8;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+#contactForm textarea {
+    height: 120px;
+    resize: none;
+}
+
+#contactForm button {
+    background-color: #d8bfd8; /* Matching pastel purple */
+    color: #fff;
+    font-size: 18px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s, transform 0.2s;
+}
+
+#contactForm button:hover {
+    background-color: #c9a0dc;
+    transform: scale(1.05);
+}
